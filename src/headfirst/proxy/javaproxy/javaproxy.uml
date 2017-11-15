@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="83.0">headfirst.proxy.javaproxy.NonOwnerInvocationHandler</node>
+    <node x="434.0" y="83.0">headfirst.proxy.javaproxy.OwnerInvocationHandler</node>
+    <node x="281.0" y="0.0">headfirst.proxy.javaproxy.PersonBean</node>
+    <node x="265.0" y="83.0">headfirst.proxy.javaproxy.PersonBeanImpl</node>
+    <node x="239.0" y="166.0">headfirst.proxy.javaproxy.MatchMakingTestDrive</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="headfirst.proxy.javaproxy.OwnerInvocationHandler" target="headfirst.proxy.javaproxy.PersonBean">
+      <point x="0.0" y="-16.5" />
+      <point x="541.0" y="58.0" />
+      <point x="378.5" y="58.0" />
+      <point x="39.0" y="16.5" />
+    </edge>
+    <edge source="headfirst.proxy.javaproxy.PersonBeanImpl" target="headfirst.proxy.javaproxy.PersonBean">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="headfirst.proxy.javaproxy.MatchMakingTestDrive" target="headfirst.proxy.javaproxy.PersonBeanImpl">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="headfirst.proxy.javaproxy.MatchMakingTestDrive" target="headfirst.proxy.javaproxy.NonOwnerInvocationHandler">
+      <point x="-67.0" y="-16.5" />
+      <point x="272.5" y="141.0" />
+      <point x="122.5" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="headfirst.proxy.javaproxy.MatchMakingTestDrive" target="headfirst.proxy.javaproxy.OwnerInvocationHandler">
+      <point x="67.0" y="-16.5" />
+      <point x="406.5" y="141.0" />
+      <point x="541.0" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="headfirst.proxy.javaproxy.NonOwnerInvocationHandler" target="headfirst.proxy.javaproxy.PersonBean">
+      <point x="0.0" y="-16.5" />
+      <point x="122.5" y="58.0" />
+      <point x="300.5" y="58.0" />
+      <point x="-39.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="324.5" y="159.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
